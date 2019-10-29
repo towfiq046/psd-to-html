@@ -1,7 +1,18 @@
-
 // Hero Area
 .hero-area {
   h1 {
     font-size: 40px;
+  }
+}
+
+#services {
+  i {
+    color: $icon-color;
+  }
+  p {
+    line-height: 1.7;
+  }
+  .text-position {
+    text-align: center;
   }
 }

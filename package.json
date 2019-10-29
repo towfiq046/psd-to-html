@@ -1,0 +1,22 @@
+{
+  "name": "psd-to-html",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "index.js",
+  "scripts": {
+    "com": "node-sass scss/main.scss css/custom.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/towfiq046/psd-to-html.git"
+  },
+  "author": "towfiq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/towfiq046/psd-to-html/issues"
+  },
+  "homepage": "https://github.com/towfiq046/psd-to-html#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

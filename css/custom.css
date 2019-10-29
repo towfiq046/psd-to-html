@@ -1,0 +1,113 @@
+body {
+  font-family: "Khula", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #999; }
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"] {
+  font-weight: 300;
+  color: #999;
+  font-size: 15px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #373737;
+  font-weight: 400; }
+
+.hero-area h1 {
+  font-size: 40px; }
+
+#services i {
+  color: #231f20; }
+
+#services p {
+  line-height: 1.7; }
+
+#services .text-position {
+  text-align: center; }
+
+.header-area .nav-btn {
+  background-color: #ef476f;
+  color: white;
+  display: inline-block;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px 25px; }
+
+.hero-area .website-analytic-form .box-btn {
+  background-color: #ef476f;
+  color: white;
+  display: inline-block;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 12px 25px; }
+
+.services-btn {
+  color: #373737;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 400; }
+
+.header-area {
+  margin-top: 20px; }
+  .header-area .main-menu {
+    color: #888; }
+    .header-area .main-menu ul {
+      margin: 0px;
+      padding: 0px;
+      list-style: none; }
+    .header-area .main-menu li {
+      position: relative;
+      display: inline-block; }
+    .header-area .main-menu a {
+      display: block;
+      color: #888;
+      padding: 12px 15px;
+      text-decoration: none; }
+
+.hero-area {
+  padding: 175px 0px 160px 0px;
+  border-bottom: 1px solid #f6f6f6; }
+  .hero-area h1 {
+    margin: 37px 0px 20px 0px;
+    max-width: 450px; }
+  .hero-area p {
+    margin-bottom: 37px; }
+  .hero-area .website-analytic-form input {
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    padding: 10px 60px 10px 20px; }
+
+.services-item:hover {
+  border-color: #ef476f;
+  transition: all .4s ease; }
+
+h3,
+.services-btn,
+#services i {
+  transition: all 0.4s ease; }
+
+.services-item:hover h3,
+.services-item:hover .services-btn,
+.services-item:hover .zmdi {
+  color: #ef476f !important;
+  transition: all 0.4s ease; }
+
+.services-item {
+  border: 1px solid #f3f3f3;
+  border-radius: 3px;
+  transition: all 0.4s ease; }
+
+#services {
+  padding: 125px 0px; }
