@@ -1,0 +1,26 @@
+// Body
+body {
+  font-family: "Khula", sans-serif;
+  font-size: 15px;
+  font-weight: $light;
+  color: $text_color;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"] {
+  font-weight: $light;
+  color: $text_color;
+	font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $heading_color;
+  font-weight: 400;
+}

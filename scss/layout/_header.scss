@@ -1,0 +1,24 @@
+.header-area {
+  margin-top: 20px;
+  .main-menu {
+    color: $menu-color;
+
+    ul {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+    }
+
+    li {
+      position: relative;
+      display: inline-block;
+    }
+
+    a {
+      display: block;
+      color: $menu-color;
+      padding: 12px 15px;
+      text-decoration: none;
+    }
+  }
+}

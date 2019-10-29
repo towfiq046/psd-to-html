@@ -1,0 +1,15 @@
+.header-area {
+  .nav-btn {
+    @include btn_style();
+    padding: 6px 25px;
+  }
+}
+
+.hero-area {
+  .website-analytic-form {
+    .box-btn {
+      @include btn_style();
+      padding: 12px 25px;
+    }
+  }
+}

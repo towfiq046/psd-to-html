@@ -1,0 +1,20 @@
+.hero-area {
+  padding: 175px 0px 160px 0px;
+  border-bottom: 1px solid $hr;
+  h1 {
+    margin: 37px 0px 20px 0px;
+    max-width: 450px;
+  }
+
+  p {
+    margin-bottom: 37px;
+  }
+
+  .website-analytic-form {
+    input {
+      border: 1px solid $border-color;
+      border-radius: 2px;
+      padding: 10px 60px 10px 20px;
+    }
+  }
+}

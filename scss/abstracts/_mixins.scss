@@ -1,0 +1,9 @@
+@mixin btn_style {
+  background-color: $btn-color;
+  color: white;
+  display: inline-block;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: $regular;
+}
