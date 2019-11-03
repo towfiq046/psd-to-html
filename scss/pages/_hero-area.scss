@@ -3,11 +3,11 @@
   border-bottom: 1px solid $hr;
   h1 {
     margin: 37px 0px 20px 0px;
-    max-width: 450px;
   }
 
   p {
     margin-bottom: 37px;
+    font-weight: $light;
   }
 
   .website-analytic-form {
@@ -18,3 +18,4 @@
     }
   }
 }
+

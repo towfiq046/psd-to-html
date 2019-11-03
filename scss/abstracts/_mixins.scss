@@ -1,9 +1,19 @@
-@mixin btn_style {
+@mixin btn-style {
   background-color: $btn-color;
   color: white;
   display: inline-block;
-  border-radius: 2px;
+  border-radius: 3px;
   text-decoration: none;
   font-size: 14px;
   font-weight: $regular;
+}
+
+@mixin media-query-h1-size($breakpoint, $size) {
+  @media (max-width: $breakpoint) {
+    .hero-area {
+      h1 {
+        font-size: $size;
+      }
+    }
+  }
 }

@@ -1,0 +1,72 @@
+/*
+################
+Header area
+################
+*/
+.header-area {
+  margin-top: 20px;
+}
+
+/*
+################
+Case study
+################
+*/
+#case-study {
+  .margin-bottom {
+    margin-bottom: 105px;
+  }
+
+  .case-study-item {
+    h4 {
+      margin-bottom: 15px;
+    }
+    h6 {
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+/*
+################
+Partner section
+################
+*/
+#partner {
+  .testimonial-item {
+    max-width: 650px;
+    p {
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+
+    img {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+/*
+################
+Slick carousel
+################
+*/
+.slick-dots li {
+  margin-top: 50px;
+}
+
+// Space under the testimonial
+.slick-list {
+  padding-bottom: 20px;
+}
+
+.slick-slide {
+  margin: 0px 15px;
+}
+
+.slick-list {
+  margin: 0px 15px;
+}

@@ -2,7 +2,7 @@
 body {
   font-family: "Khula", sans-serif;
   font-size: 15px;
-  font-weight: $light;
+  font-weight: $regular;
   color: $text-color;
 }
 
@@ -12,7 +12,7 @@ input[type="url"],
 input[type="password"] {
   font-weight: $light;
   color: $text-color;
-	font-size: 15px;
+  font-size: 15px;
 }
 
 h1,
@@ -23,4 +23,16 @@ h5,
 h6 {
   color: $heading-color;
   font-weight: 400;
+}
+
+.section-padding {
+  padding: 125px 0px;
+}
+
+.max-width {
+  max-width: 450px;
+}
+
+.line-height {
+  line-height: 1.4;
 }

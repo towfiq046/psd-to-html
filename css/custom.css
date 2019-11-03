@@ -1,7 +1,7 @@
 body {
   font-family: "Khula", sans-serif;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 400;
   color: #999; }
 
 input[type="text"],
@@ -21,37 +21,68 @@ h6 {
   color: #373737;
   font-weight: 400; }
 
+.section-padding {
+  padding: 125px 0px; }
+
+.max-width {
+  max-width: 450px; }
+
+.line-height {
+  line-height: 1.4; }
+
+p {
+  line-height: 1.7; }
+
 .hero-area h1 {
   font-size: 40px; }
 
-#services i {
-  color: #231f20; }
+@media (max-width: 992px) {
+  .hero-area h1 {
+    font-size: 33px; } }
 
-#services p {
-  line-height: 1.7; }
+@media (max-width: 576px) {
+  .hero-area h1 {
+    font-size: 30px; } }
 
-#services .text-position {
-  text-align: center; }
+#case-study h6 {
+  font-size: 17px; }
+
+.testimonial-meta h5 {
+  font-size: 18px; }
+
+.testimonial-meta p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #999; }
+
+#partner .testimonial-item {
+  font-size: 24px;
+  color: #373737; }
+  #partner .testimonial-item img {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    border-radius: 50%; }
 
 .header-area .nav-btn {
   background-color: #ef476f;
   color: white;
   display: inline-block;
-  border-radius: 2px;
+  border-radius: 3px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
-  padding: 6px 25px; }
+  padding: 7px 25px 5px; }
 
 .hero-area .website-analytic-form .box-btn {
   background-color: #ef476f;
   color: white;
   display: inline-block;
-  border-radius: 2px;
+  border-radius: 3px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
-  padding: 12px 25px; }
+  padding: 11px 25px 9px; }
 
 .services-btn {
   color: #373737;
@@ -59,55 +90,204 @@ h6 {
   display: inline-block;
   font-weight: 400; }
 
-.header-area {
-  margin-top: 20px; }
-  .header-area .main-menu {
-    color: #888; }
-    .header-area .main-menu ul {
-      margin: 0px;
-      padding: 0px;
-      list-style: none; }
-    .header-area .main-menu li {
-      position: relative;
-      display: inline-block; }
-    .header-area .main-menu a {
-      display: block;
-      color: #888;
-      padding: 12px 15px;
-      text-decoration: none; }
+#how-it-works .box-btn {
+  background-color: #ef476f;
+  color: white;
+  display: inline-block;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 12px 43px 9px; }
+
+#cta-area .box-btn {
+  background-color: #ef476f;
+  color: white;
+  display: inline-block;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 12px 43px 9px; }
+
+/*
+################
+Slick carousel
+################
+*/
+.slick-dots li {
+  background: #e2e2e2;
+  height: 3px;
+  width: 20px; }
+  .slick-dots li.slick-active {
+    background: #ef476f; }
+  .slick-dots li button {
+    visibility: hidden; }
+
+.next-arrow-btn {
+  position: absolute;
+  top: 40%;
+  right: -3%;
+  color: #ef476f;
+  cursor: pointer; }
+
+.prev-arrow-btn {
+  position: absolute;
+  top: 40%;
+  left: -3%;
+  color: #ef476f;
+  cursor: pointer; }
+
+.header-area .main-menu {
+  color: #888; }
+  .header-area .main-menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none; }
+  .header-area .main-menu li {
+    position: relative;
+    display: inline-block; }
+  .header-area .main-menu a {
+    display: block;
+    color: #888;
+    padding: 12px 15px;
+    text-decoration: none; }
 
 .hero-area {
   padding: 175px 0px 160px 0px;
   border-bottom: 1px solid #f6f6f6; }
   .hero-area h1 {
-    margin: 37px 0px 20px 0px;
-    max-width: 450px; }
+    margin: 37px 0px 20px 0px; }
   .hero-area p {
-    margin-bottom: 37px; }
+    margin-bottom: 37px;
+    font-weight: 300; }
   .hero-area .website-analytic-form input {
     border: 1px solid #efefef;
     border-radius: 2px;
     padding: 10px 60px 10px 20px; }
 
+/*
+################
+Service section 
+################
+*/
 .services-item:hover {
-  border-color: #ef476f;
-  transition: all .4s ease; }
+  border-color: #ef476f !important;
+  transition: 0.4s; }
 
-h3,
-.services-btn,
-#services i {
-  transition: all 0.4s ease; }
+.services-item i,
+.services-item h3,
+.services-item p,
+.services-item a {
+  transition: 0.4s; }
 
 .services-item:hover h3,
 .services-item:hover .services-btn,
 .services-item:hover .zmdi {
   color: #ef476f !important;
-  transition: all 0.4s ease; }
+  transition: 0.4s; }
 
-.services-item {
+/*
+################
+Case study section
+################
+*/
+#case-study .case-study-item:hover .csae-study-wrapper {
+  opacity: 1; }
+
+#services .services-item {
   border: 1px solid #f3f3f3;
   border-radius: 3px;
-  transition: all 0.4s ease; }
+  transition: 0.4s; }
+  #services .services-item .services-icon {
+    color: #231f20; }
 
-#services {
-  padding: 125px 0px; }
+#how-it-works {
+  padding-top: 80px; }
+
+#case-study {
+  background: #fbfbfb; }
+  #case-study .case-study-item {
+    height: 320px;
+    background: #ddd;
+    display: table; }
+  #case-study .csae-study-wrapper {
+    width: 100%;
+    height: 320px;
+    padding: 40px 30px;
+    text-align: center;
+    background: #ef476f;
+    opacity: 0;
+    transition: all 0.4s ease; }
+    #case-study .csae-study-wrapper h4,
+    #case-study .csae-study-wrapper h6,
+    #case-study .csae-study-wrapper p {
+      color: white; }
+    #case-study .csae-study-wrapper .case-study-more {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      color: #373737;
+      line-height: 46px;
+      border-radius: 50%; }
+      #case-study .csae-study-wrapper .case-study-more i {
+        margin-right: 5px; }
+  #case-study .no-padding {
+    padding: 0 !important; }
+
+/*
+################
+Header area
+################
+*/
+.header-area {
+  margin-top: 20px; }
+
+/*
+################
+Case study
+################
+*/
+#case-study .margin-bottom {
+  margin-bottom: 105px; }
+
+#case-study .case-study-item h4 {
+  margin-bottom: 15px; }
+
+#case-study .case-study-item h6 {
+  margin-bottom: 20px; }
+
+#case-study .case-study-item p {
+  margin-bottom: 15px; }
+
+/*
+################
+Partner section
+################
+*/
+#partner .testimonial-item {
+  max-width: 650px; }
+  #partner .testimonial-item p {
+    line-height: 1.5;
+    margin-bottom: 30px; }
+  #partner .testimonial-item img {
+    margin-bottom: 30px; }
+
+/*
+################
+Slick carousel
+################
+*/
+.slick-dots li {
+  margin-top: 50px; }
+
+.slick-list {
+  padding-bottom: 20px; }
+
+.slick-slide {
+  margin: 0px 15px; }
+
+.slick-list {
+  margin: 0px 15px; }

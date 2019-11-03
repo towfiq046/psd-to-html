@@ -1,24 +1,38 @@
-// .services-item:hover,
-// .services-icon:hover,
-// .services-btn:hover,
-// .services-heading {
-//   color: $hover-color;
-// }
-
+/*
+################
+Service section 
+################
+*/
 .services-item:hover {
-  border-color: $hover-color;
-  transition: all .4s ease;
+  border-color: $hover-color !important;
+  transition: 0.4s;
 }
 
-h3,
-.services-btn,
-#services i {
-  transition: all 0.4s ease;
+.services-item {
+  i,
+  h3,
+  p,
+  a {
+    transition: 0.4s;
+  }
 }
 
 .services-item:hover h3,
 .services-item:hover .services-btn,
 .services-item:hover .zmdi {
   color: $hover-color !important;
-  transition: all 0.4s ease;
+  transition: 0.4s;
+}
+
+/*
+################
+Case study section
+################
+*/
+#case-study {
+  .case-study-item:hover {
+    .csae-study-wrapper {
+      opacity: 1;
+    }
+  }
 }

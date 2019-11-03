@@ -1,0 +1,43 @@
+#case-study {
+  background: $case-study-color;
+
+  .case-study-item {
+    height: 320px;
+    background: #ddd;
+    display: table;
+  }
+
+  .csae-study-wrapper {
+    width: 100%;
+    height: 320px;
+    padding: 40px 30px;
+    text-align: center;
+    background: $hover-color;
+    opacity: 0;
+    transition: all 0.4s ease;
+
+    h4,
+    h6,
+    p {
+      color: white;
+    }
+
+    .case-study-more {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      color: $heading-color;
+      line-height: 46px;
+      border-radius: 50%;
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+
+  // For making same as psd.
+  .no-padding {
+    padding: 0 !important;
+  }
+}

@@ -1,3 +1,7 @@
+p {
+  line-height: 1.7;
+}
+
 // Hero Area
 .hero-area {
   h1 {
@@ -5,14 +9,39 @@
   }
 }
 
-#services {
-  i {
-    color: $icon-color;
+// Hero area heading resize.
+@include media-query-h1-size($breakpoint_laptop, 33px);
+@include media-query-h1-size($breakpoint_mobile, 30px);
+
+// Case study
+#case-study {
+  h6 {
+    font-size: 17px;
+  }
+}
+
+// Partneer section
+.testimonial-meta {
+  h5 {
+    font-size: 18px;
   }
   p {
-    line-height: 1.7;
+    font-size: 14px;
+    font-weight: $light;
+    color: $text-color;
   }
-  .text-position {
-    text-align: center;
+}
+
+#partner {
+  .testimonial-item {
+    font-size: 24px;
+    color: $heading-color;
+
+    img {
+      height: 60px;
+      width: 60px;
+      display: inline-block;
+      border-radius: 50%;
+    }
   }
 }

@@ -1,0 +1,12 @@
+// Services item border
+#services {
+  .services-item {
+    border: 1px solid $services-border-color;
+    border-radius: 3px;
+    transition: 0.4s;
+
+    .services-icon {
+      color: $icon-color;
+    }
+  }
+}
