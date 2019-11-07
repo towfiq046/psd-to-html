@@ -5,6 +5,7 @@
     height: 320px;
     background: #ddd;
     display: table;
+    border-radius: 3px;
   }
 
   .csae-study-wrapper {
@@ -14,7 +15,8 @@
     text-align: center;
     background: $hover-color;
     opacity: 0;
-    transition: all 0.4s ease;
+    border-radius: 3px;
+
 
     h4,
     h6,

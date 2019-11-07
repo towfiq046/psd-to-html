@@ -9,6 +9,15 @@ Header area
 
 /*
 ################
+Services section
+################
+*/
+#how-it-works {
+  padding-top: 80px;
+}
+
+/*
+################
 Case study
 ################
 */
@@ -69,4 +78,69 @@ Slick carousel
 
 .slick-list {
   margin: 0px 15px;
+}
+
+/*
+################
+Cta area
+################
+*/
+#cta-area {
+  padding: 70px 0px;
+  background: $cta-color;
+
+  h3 {
+    margin: 0px;
+    padding-top: 12px;
+  }
+}
+
+/*
+################
+Pricing area
+################
+*/
+#pricing {
+  .pricing-box {
+    margin-top: 80px;
+  }
+  .pricing-heading {
+    margin-bottom: 40px;
+
+    h5 {
+      margin-bottom: 18px;
+    }
+    .price {
+      margin: 0px;
+    }
+  }
+}
+
+/*
+################
+Case study
+################
+*/
+#footer {
+  .margin-bottom {
+    margin-bottom: 25px;
+  }
+  padding: 70px;
+  .subscribe-form {
+    margin: 40px 0;
+  }
+  .mr {
+    margin-right: 7px;
+  }
+}
+
+/*
+################
+Copyright
+################
+*/
+#copyright-area {
+  background-color: $copyright-color;
+  height: 50px;
+  padding-top: 16px
 }

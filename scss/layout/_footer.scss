@@ -1,0 +1,46 @@
+#footer {
+  background: $footer-color;
+  a {
+    color: $text-color;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    line-height: 2;
+  }
+
+  .subscribe-form {
+    input[type="email"] {
+      margin: 0;
+      width: 55%;
+      border: 1px solid $hr;
+      background-color: $hr;
+      border-top-left-radius : 3px;
+      border-bottom-left-radius: 3px;
+      margin-right: -4px;
+      padding: 15px;
+      height: 45px;
+      
+    }
+    input[type="submit"] {
+      width: 30%;
+      height: 45px;
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+    }
+  }
+
+  .social-link {
+    li {
+      display: inline-block;
+      width: 30%;
+    }
+  }
+
+  li {
+    color: $heading-color
+  }
+}

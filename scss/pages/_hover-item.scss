@@ -1,3 +1,8 @@
+// Base a tag
+a:hover {
+  text-decoration: none;
+}
+
 /*
 ################
 Service section 
@@ -30,9 +35,55 @@ Case study section
 ################
 */
 #case-study {
+  .csae-study-wrapper {
+    transition: all 0.4s ease;
+  }
   .case-study-item:hover {
     .csae-study-wrapper {
       opacity: 1;
+    }
+  }
+}
+
+/*
+################
+Pricing section
+################
+*/
+#pricing {
+  .pricing-box,
+  .pricing-heading {
+    transition: 0.4s;
+  }
+  .pricing-box:hover {
+    border-color: $hover-color;
+    .pricing-heading {
+      border-color: $hover-color;
+    }
+  }
+
+  .logo-item {
+    height: 50px;
+    opacity: 0.7;
+    transition: 0.3s;
+  }
+  .logo-item:hover {
+    opacity: 1;
+  }
+}
+
+/*
+################
+Footer
+################
+*/
+#footer {
+  .social-link {
+    li, a {
+      transition: 0.3s;
+    }
+    li:hover, li a:hover {
+      color: $hover-color;
     }
   }
 }

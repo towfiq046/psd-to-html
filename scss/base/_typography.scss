@@ -45,3 +45,32 @@ p {
     }
   }
 }
+
+// Pricing and logo section
+#pricing {
+  .pricing-heading {
+    .price {
+      font-size: 50px;
+      color: $btn-color;
+      line-height: 60px;
+    }
+    .light-font {
+      font-weight: $light;
+    }
+  }
+
+  .pricing-content {
+    ul {
+      font-weight: $light;
+      line-height: 40px;
+      font-size: 17px;
+    }
+  }
+}
+
+// Footer
+#footer {
+  a {
+    font-weight: $light;
+  }
+}
