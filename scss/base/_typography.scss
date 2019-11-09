@@ -28,14 +28,14 @@ p {
   p {
     font-size: 14px;
     font-weight: $light;
-    color: $text-color;
+    color: $color-text;
   }
 }
 
 #partner {
   .testimonial-item {
     font-size: 24px;
-    color: $heading-color;
+    color: $color-heading;
 
     img {
       height: 60px;
@@ -51,7 +51,7 @@ p {
   .pricing-heading {
     .price {
       font-size: 50px;
-      color: $btn-color;
+      color: $color-btn;
       line-height: 60px;
     }
     .light-font {

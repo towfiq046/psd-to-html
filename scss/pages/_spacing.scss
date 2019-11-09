@@ -3,7 +3,7 @@
 Header area
 ################
 */
-.header-area {
+#header {
   margin-top: 20px;
 }
 
@@ -87,7 +87,7 @@ Cta area
 */
 #cta-area {
   padding: 70px 0px;
-  background: $cta-color;
+  background: $color-cta;
 
   h3 {
     margin: 0px;
@@ -140,7 +140,7 @@ Copyright
 ################
 */
 #copyright-area {
-  background-color: $copyright-color;
+  background-color: $color-copyright;
   height: 50px;
-  padding-top: 16px
+  padding-top: 16px;
 }

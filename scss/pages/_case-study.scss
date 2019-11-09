@@ -1,5 +1,5 @@
 #case-study {
-  background: $case-study-color;
+  background: $color-csae-study;
 
   .case-study-item {
     height: 320px;
@@ -13,10 +13,9 @@
     height: 320px;
     padding: 40px 30px;
     text-align: center;
-    background: $hover-color;
+    background: $color-hover;
     opacity: 0;
     border-radius: 3px;
-
 
     h4,
     h6,
@@ -29,7 +28,7 @@
       width: 40px;
       height: 40px;
       background-color: white;
-      color: $heading-color;
+      color: $color-heading;
       line-height: 46px;
       border-radius: 50%;
       i {

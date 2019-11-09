@@ -1,0 +1,54 @@
+// Medium
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  #header {
+    .nav-btn {
+      font-size: 13px;
+      padding: 7px 12px 5px;
+    }
+  }
+
+  #case-study {
+    .csae-study-wrapper {
+      padding-top: 25px;
+    }
+    .case-study-item {
+      h4 {
+        margin-bottom: 10px;
+      }
+
+      h6 {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  #cta-area {
+    h3 {
+      font-size: 25px;
+    }
+  }
+}
+
+// Tablet
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #header {
+    .logo {
+      text-align: center;
+    }
+    .col-md-8 {
+      display: none;
+    }
+  }
+
+  .col-md-2 {
+    text-align: center !important;
+  }
+}
+
+// Wide mobile
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+// Mobile
+@media only screen and (max-width: 767px) {
+}

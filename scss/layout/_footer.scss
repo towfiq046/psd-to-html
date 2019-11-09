@@ -1,7 +1,7 @@
 #footer {
-  background: $footer-color;
+  background: $color-footer;
   a {
-    color: $text-color;
+    color: $color-text;
   }
 
   ul {
@@ -16,14 +16,13 @@
     input[type="email"] {
       margin: 0;
       width: 55%;
-      border: 1px solid $hr;
-      background-color: $hr;
-      border-top-left-radius : 3px;
+      border: 1px solid $color-hr;
+      background-color: $color-hr;
+      border-top-left-radius: 3px;
       border-bottom-left-radius: 3px;
       margin-right: -4px;
       padding: 15px;
       height: 45px;
-      
     }
     input[type="submit"] {
       width: 30%;
@@ -41,6 +40,6 @@
   }
 
   li {
-    color: $heading-color
+    color: $color-heading;
   }
 }

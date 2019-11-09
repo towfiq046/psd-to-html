@@ -3,7 +3,7 @@ body {
   font-family: "Khula", sans-serif;
   font-size: 15px;
   font-weight: $regular;
-  color: $text-color;
+  color: $color-text;
 }
 
 input[type="text"],
@@ -11,7 +11,7 @@ input[type="email"],
 input[type="url"],
 input[type="password"] {
   font-weight: $light;
-  color: $text-color;
+  color: $color-text;
   font-size: 15px;
 }
 
@@ -21,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $heading-color;
+  color: $color-heading;
   font-weight: 400;
 }
 

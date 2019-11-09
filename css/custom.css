@@ -80,7 +80,7 @@ p {
 #footer a {
   font-weight: 300; }
 
-.header-area .nav-btn {
+#header .nav-btn {
   background-color: #ef476f;
   color: white;
   display: inline-block;
@@ -182,16 +182,16 @@ Slick carousel
   border-radius: 0px;
   padding: 7px; }
 
-.header-area .main-menu {
+#header .main-menu {
   color: #888; }
-  .header-area .main-menu ul {
+  #header .main-menu ul {
     margin: 0px;
     padding: 0px;
     list-style: none; }
-  .header-area .main-menu li {
+  #header .main-menu li {
     position: relative;
     display: inline-block; }
-  .header-area .main-menu a {
+  #header .main-menu a {
     display: block;
     color: #888;
     padding: 12px 15px;
@@ -303,10 +303,12 @@ Pricing section
 Footer
 ################
 */
-#footer .social-link li, #footer .social-link a {
+#footer .social-link li,
+#footer .social-link a {
   transition: 0.3s; }
 
-#footer .social-link li:hover, #footer .social-link li a:hover {
+#footer .social-link li:hover,
+#footer .social-link li a:hover {
   color: #ef476f; }
 
 #services .services-item {
@@ -353,7 +355,7 @@ Footer
 Header area
 ################
 */
-.header-area {
+#header {
   margin-top: 20px; }
 
 /*
@@ -475,3 +477,24 @@ Copyright
   list-style: none;
   padding: 0px;
   line-height: 40px; }
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  #header .nav-btn {
+    font-size: 13px;
+    padding: 7px 12px 5px; }
+  #case-study .csae-study-wrapper {
+    padding-top: 25px; }
+  #case-study .case-study-item h4 {
+    margin-bottom: 10px; }
+  #case-study .case-study-item h6 {
+    margin-bottom: 15px; }
+  #cta-area h3 {
+    font-size: 25px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #header .logo {
+    text-align: center; }
+  #header .col-md-8 {
+    display: none; }
+  .col-md-2 {
+    text-align: center !important; } }

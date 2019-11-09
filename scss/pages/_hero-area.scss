@@ -1,6 +1,6 @@
 .hero-area {
   padding: 175px 0px 160px 0px;
-  border-bottom: 1px solid $hr;
+  border-bottom: 1px solid $color-hr;
   h1 {
     margin: 37px 0px 20px 0px;
   }
@@ -12,10 +12,9 @@
 
   .website-analytic-form {
     input {
-      border: 1px solid $border-color;
+      border: 1px solid $color-border;
       border-radius: 3px;
       padding: 10px 60px 10px 20px;
     }
   }
 }
-

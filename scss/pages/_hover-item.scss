@@ -9,7 +9,7 @@ Service section
 ################
 */
 .services-item:hover {
-  border-color: $hover-color !important;
+  border-color: $color-hover !important;
   transition: 0.4s;
 }
 
@@ -25,7 +25,7 @@ Service section
 .services-item:hover h3,
 .services-item:hover .services-btn,
 .services-item:hover .zmdi {
-  color: $hover-color !important;
+  color: $color-hover !important;
   transition: 0.4s;
 }
 
@@ -56,9 +56,9 @@ Pricing section
     transition: 0.4s;
   }
   .pricing-box:hover {
-    border-color: $hover-color;
+    border-color: $color-hover;
     .pricing-heading {
-      border-color: $hover-color;
+      border-color: $color-hover;
     }
   }
 
@@ -79,11 +79,13 @@ Footer
 */
 #footer {
   .social-link {
-    li, a {
+    li,
+    a {
       transition: 0.3s;
     }
-    li:hover, li a:hover {
-      color: $hover-color;
+    li:hover,
+    li a:hover {
+      color: $color-hover;
     }
   }
 }
